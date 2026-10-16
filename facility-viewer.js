@@ -12,14 +12,14 @@ var Qi={LEFT:0,MIDDLE:1,RIGHT:2,ROTATE:0,DOLLY:1,PAN:2},es={ROTATE:0,PAN:1,DOLLY
 
 				}
 
-				void main() {
+				// void main() {
 
-					vWorldDirection = transformDirection( position, modelMatrix );
+				// 	vWorldDirection = transformDirection( position, modelMatrix );
 
-					#include <begin_vertex>
-					#include <project_vertex>
+				// 	#include <begin_vertex>
+				// 	#include <project_vertex>
 
-				}
+				// }
 			`,fragmentShader:`
 
 				uniform sampler2D tEquirect;
